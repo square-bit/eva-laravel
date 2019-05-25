@@ -1,0 +1,35 @@
+{
+    "name": "square-bit/laravel-eva",
+    "description": "Keep fake or disposable emails out. A validation rule for your forms.",
+    "keywords": [
+        "squarebit",
+        "laravel-eva",
+        "email",
+        "validation",
+        "rule",
+        "api"
+    ],
+    "homepage": "https://e-va.io",
+    "license": "MIT",
+    "authors": [{
+        "name": "E.VA.",
+        "email": "info@e-va.io"
+    }],
+    "require": {
+        "php": "^7.0",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Squarebit\\EVA\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Squarebit\\EVA\\EVAServiceProvider"
+            ]
+        }
+    }
+
+}
