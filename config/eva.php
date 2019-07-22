@@ -11,7 +11,7 @@ return [
     |
      */
 
-    'apikey' => env('EVA_APIKEY', 'null'),
+    'apikey' => env('EVA_APIKEY', null),
 
     'allow_when_service_unavailable' => env('EVA_SERVICE_UNAVAILABLE', true),
     'allow_when_unkown' => env('EVA_UNKOWN', false),
