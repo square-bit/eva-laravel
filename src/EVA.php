@@ -23,6 +23,10 @@ class EVA {
     // Get the api key.
     $apiKey = config('eva.apikey');
 
+    if ($apiKey === null) {
+        throw new \Exception('Missing EVA_APIKEY');
+    }
+    
     $url = 'https://e-va.io/api/email/validate/' . urlencode($email);
     $options = [
       'headers' => [
