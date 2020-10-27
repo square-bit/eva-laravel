@@ -11,13 +11,15 @@
     ],
     "homepage": "https://e-va.io",
     "license": "MIT",
-    "authors": [{
+    "authors": [
+        {
         "name": "E.VA.",
         "email": "info@e-va.io"
-    }],
+        }
+    ],
     "require": {
         "php": "^7.0",
-        "guzzlehttp/guzzle": "^6.3"
+        "guzzlehttp/guzzle": "^6.5.5|^7.0.1"
     },
     "autoload": {
         "psr-4": {
