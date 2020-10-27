@@ -1,4 +1,8 @@
-# laravel-eva
+# Laravel Email Validation
+
+[![Latest Stable Version](https://poser.pugx.org/square-bit/laravel-eva/v)](//packagist.org/packages/square-bit/laravel-eva)
+[![License](https://poser.pugx.org/square-bit/laravel-eva/license)](//packagist.org/packages/square-bit/laravel-eva)
+[![Total Downloads](https://poser.pugx.org/square-bit/laravel-eva/downloads)](//packagist.org/packages/square-bit/laravel-eva)
 
 Laravel package for integration with e-va.io service.
 Provides a Rule to automatically validate form emails.
@@ -54,3 +58,17 @@ use Squarebit\EVA\Rules\EVAValidated
 ```
 
 That's it !
+
+## Security
+
+If you discover any security related issues, please email info@square-bit.com instead of using the issue tracker.
+
+## Credits
+
+- [Squarebit][link-author]
+
+## License
+
+MIT. Please see the [license file](license.md) for more information.
+
+[link-author]: https://github.com/square-bit
