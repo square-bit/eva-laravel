@@ -34,7 +34,7 @@ Make sure you update the `.env` file with a valid API Key (generate one at e-va.
 ### Usage
 You can now use EVA to validate any email provided by your users directly with the Laravel Validator.
 
-Say you you're already validating an email on its basic properties
+Let's say you're already validating an email on its basic properties
 ```php
     return Validator::make($data, [
         [...]
@@ -43,7 +43,7 @@ Say you you're already validating an email on its basic properties
     ]);
 ```
 
-To get the registration email validated simply add the EVAValidate class to the list of rules:
+To get the email validated simply add the EVAValidated class to the list of rules:
 ```php
 use Squarebit\EVA\Rules\EVAValidated
 
